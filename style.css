@@ -20,7 +20,6 @@ header {
     display: flex;
     list-style: none;
     flex-direction: column;
-    width: 100%;
 }
 
 .menu-item {
@@ -44,11 +43,13 @@ header {
 }
 
 .company-intro {
-    margin: 0 auto;
-    width: 50%;
+    position: absolute;
     background-color: rgba(40, 70, 66, 0.4);
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.65);
-    padding: 0 5% 1% 2%;
+    padding: 20px;
+    width: 50%;
+    top: 50px;
+    right: 10vw;
     /* a padding és szélesség megtartásával addig növeli a magasságot, amíg a tartalom bele nem fér, így bármikor módosítható a doboz tartalma, nem kell a méreteket külön igazítani */
     height: fit-content;
 }
