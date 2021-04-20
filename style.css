@@ -28,6 +28,7 @@ header {
     text-align: center;
     padding: 1rem 1.5rem 1rem 1.5rem;
     transition: 0.2s ease-in-out;
+    /* az alap szélesség csökkentésével értem el, hogy hover effect-nél a menupontok kilőgjanak a többiből, e nélkül az egész menu együtt növekszik ebben a kódban */
     width: 90%;
 }
 
